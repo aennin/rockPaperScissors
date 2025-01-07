@@ -109,10 +109,10 @@ function scoreUpdate() {
 // Function to check for a winner (end the game when one player reaches 5)
 function checkWinner() {
     if (humanScore >= 5) {
-        resultsUpdate("You win the game! Congratulations!");
+        resultsUpdate("You won the game! Congratulations!");
         disableGame();
     } else if (computerScore >= 5) {
-        resultsUpdate("Computer wins the game! Better luck next time.");
+        resultsUpdate("Computer won! Better luck next time.");
         disableGame();
     }
 }
